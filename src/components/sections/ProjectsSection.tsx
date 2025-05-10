@@ -31,6 +31,7 @@ const ProjectsSection: React.FC = () => {
       tags: ["React", "Redux", "Node.js", "MongoDB"],
       github: "https://github.com",
       liveLink: "https://example.com"
+      
     },
     {
       id: 3,
