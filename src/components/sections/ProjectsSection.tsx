@@ -16,12 +16,12 @@ const ProjectsSection: React.FC = () => {
   const [projects] = useState<Project[]>([
     {
       id: 1,
-      title: "Smart Analytics Dashboard",
-      description: "A comprehensive analytics dashboard with real-time data processing, interactive visualizations, and customizable widgets for business intelligence needs.",
-      image: "https://images.pexels.com/photos/7214929/pexels-photo-7214929.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-      tags: ["React", "TypeScript", "D3.js", "Node.js"],
-      github: "https://github.com",
-      liveLink: "https://example.com"
+      title: "Portfolio Site",
+      description: "A comprehensive showcase of my skills, experience, and projects. Features modern design, smooth animations, and responsive layout to present my professional journey effectively.",
+      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
+      github: "https://github.com/SwarupKarmokar/MyPortFolioLatest",
+      liveLink: "https://my-port-folio-latest.vercel.app/",
     },
     {
       id: 2,
