@@ -13,31 +13,32 @@ const SkillsSection: React.FC = () => {
     { name: 'TypeScript', level: 85, category: 'frontend' },
     { name: 'JavaScript', level: 95, category: 'frontend' },
     { name: 'HTML & CSS', level: 90, category: 'frontend' },
-    { name: 'Redux', level: 80, category: 'frontend' },
+    { name: 'Redux Tookit', level: 80, category: 'frontend' },
     { name: 'Next.js', level: 75, category: 'frontend' },
     
-    // Backend
-    { name: 'Node.js', level: 85, category: 'backend' },
-    { name: 'Express', level: 80, category: 'backend' },
-    { name: 'Python', level: 75, category: 'backend' },
-    { name: 'MongoDB', level: 70, category: 'backend' },
-    { name: 'PostgreSQL', level: 65, category: 'backend' },
+    // // Backend
+    // { name: 'Node.js', level: 85, category: 'backend' },
+    // { name: 'Express', level: 80, category: 'backend' },
+    // { name: 'Python', level: 75, category: 'backend' },
+    // { name: 'MongoDB', level: 70, category: 'backend' },
+    // { name: 'PostgreSQL', level: 65, category: 'backend' },
     
     // Tools
     { name: 'Git', level: 90, category: 'tools' },
-    { name: 'Docker', level: 75, category: 'tools' },
-    { name: 'CI/CD', level: 70, category: 'tools' },
+    { name: 'Asana', level: 90, category: 'tools' },
+    // { name: 'Docker', level: 75, category: 'tools' },
+    // { name: 'CI/CD', level: 70, category: 'tools' },
     
     // Other
     { name: 'Problem Solving', level: 95, category: 'other' },
     { name: 'Agile Methodology', level: 85, category: 'other' },
-    { name: 'Testing', level: 80, category: 'other' },
+    // { name: 'Testing', level: 80, category: 'other' },
   ];
 
   const categories = [
     { id: 'frontend', name: 'Frontend' },
-    { id: 'backend', name: 'Backend' },
-    { id: 'tools', name: 'Tools & DevOps' },
+    // { id: 'backend', name: 'Backend' },
+    { id: 'tools', name: 'Tools' },
     { id: 'other', name: 'Other' },
   ];
 

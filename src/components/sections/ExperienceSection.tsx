@@ -16,8 +16,8 @@ const ExperienceSection: React.FC = () => {
       id: 1,
       title: "Software Developer Engineer",
       company: "Exact Space",
-      location: "Remote",
-      period: "Jan 2023 - Present",
+      location: "Bangalore, India / Remote",
+      period: "Feb 2024 - Present",
       description: [
         "Developed innovative solutions for data analysis and visualization platforms.",
         "Collaborated with cross-functional teams to design and implement new features.",
@@ -27,30 +27,28 @@ const ExperienceSection: React.FC = () => {
     },
     {
       id: 2,
-      title: "Frontend Developer",
-      company: "Tech Innovations",
-      location: "Bangalore, India",
-      period: "Aug 2021 - Dec 2022",
-      description: [
-        "Led the development of responsive web applications using React and TypeScript.",
-        "Created reusable component libraries that improved development efficiency by 25%.",
-        "Collaborated with UX designers to implement intuitive user interfaces.",
-        "Participated in code reviews and mentored junior developers."
-      ]
-    },
-    {
-      id: 3,
       title: "Web Developer Intern",
-      company: "Digital Solutions Inc.",
+      company: "Exact Space",
       location: "Bangalore, India",
-      period: "Jan 2021 - Jul 2021",
+      period: "Aug 2023 - Feb 2024",
       description: [
         "Assisted in the development of web applications using JavaScript and React.",
         "Implemented UI components based on design specifications.",
         "Fixed bugs and improved application performance.",
         "Participated in daily stand-up meetings and sprint planning."
       ]
-    }
+    },
+    {
+      id: 3,
+      title: "Data Science Intern",
+      company: "Brainalyst",
+      location: "Delhi, India",
+      period: "Sep 2021 - Dec 2021",
+      description: [
+        "Created various machine learning model (classification, regression)",
+        "Build image processing deep learning model",
+      ]
+    },
   ]);
 
   return (
