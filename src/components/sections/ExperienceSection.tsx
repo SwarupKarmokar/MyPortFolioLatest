@@ -48,7 +48,7 @@ const ExperienceSection: React.FC = () => {
         "Created various machine learning model (classification, regression)",
         "Build image processing deep learning model",
       ]
-    },
+    }
   ]);
 
   return (
